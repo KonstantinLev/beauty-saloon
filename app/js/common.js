@@ -44,6 +44,15 @@ $(function() {
 		}
 	});
 
+	$('.reviews').owlCarousel({
+		loop: true,
+		items: 1,
+		nav: false,
+		smartSpeed: 700,
+		autoHeight: true
+
+	});
+
 	carouselServiceText();
 	onResize();
 	window.onresize = function()
